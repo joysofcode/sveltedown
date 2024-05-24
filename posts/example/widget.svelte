@@ -36,7 +36,7 @@
 			<pre>{@html highlightCode(html)}</pre>
 			<textarea bind:value={html} spellcheck="false"></textarea>
 		</div>
-		<div class="border-l-2 p-6">{@html html}</div>
+		<div class="border-l-1 p-6">{@html html}</div>
 	</div>
 {/if}
 
@@ -45,7 +45,7 @@
 		display: grid;
 
 		& > * {
-			grid-area: 1/1;
+			grid-area: 1 / 1;
 		}
 
 		pre,
